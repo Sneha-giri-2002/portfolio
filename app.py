@@ -5,9 +5,6 @@ st.set_page_config(page_title="Sneha Giri Portfolio", page_icon=":star:", layout
 
 # Sidebar with profile photo and social links
 st.sidebar.title("Sneha Giri")
-# Add profile photo (ensure 'profile_photo.jpg' exists in the same directory)
-
-st.sidebar.image("image.jpg", caption="Profile Photo", width=150)
 
 st.sidebar.subheader("Connect with Me")
 st.sidebar.write("LinkedIn: [Sneha Giri](www.linkedin.com/in/sneha-giri-441a522aa)")  # Replace with your actual link
