@@ -30,15 +30,6 @@ st.markdown("""
         background: linear-gradient(135deg, #f0faff, #e0f7fa);
     }
 
-    .block {
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 2rem;
-        border-radius: 20px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-        margin-bottom: 2rem;
-        backdrop-filter: blur(6px);
-    }
-
     h2 {
         color: #007acc;
         border-bottom: 2px solid #007acc;
@@ -94,8 +85,7 @@ st.markdown('<div class="typewriter">Aspiring Business Analyst | Data Enthusiast
 # --- Navigation Tabs ---
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
     "About Me", "Education", "Experience",
-    "Skills", "Projects", "Certifications"
-])
+    "Skills", "Projects", "Certifications"])
 
 with tab1:
     st.markdown("<div class='block'>", unsafe_allow_html=True)
