@@ -6,7 +6,7 @@ st.set_page_config(page_title="Sneha Giri | Portfolio", layout="wide", page_icon
 
 # SIDEBAR - PERSONAL INFO
 with st.sidebar:
-    st.image("image.jpg", use_column_width=True)
+    st.image("Image.jpg", use_column_width=True)
     st.title("Sneha Giri")
     st.markdown("""
 * sneha.giri24-26@bibs.co.in  
